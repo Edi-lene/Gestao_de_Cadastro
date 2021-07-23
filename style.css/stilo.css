@@ -1,0 +1,38 @@
+body,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+ }
+
+ a {
+   text-decoration:none;
+
+ }
+
+ .header {
+   background: green;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:space-between;
+   align-items: center;
+   padding: 20px;
+ }
+
+ .menu {
+   display:flex;
+ }
+ 
+ .menu li {
+   margin-left: 10;
+ }
+
+ .menu li a {
+   display: block;
+   padding: 10px;
+   background:;
+ }
